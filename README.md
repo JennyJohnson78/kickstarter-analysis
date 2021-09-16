@@ -1,2 +1,2 @@
-# kickstarter-analysis
-Performing Analysis on Kickstarter information to discover trends.
+# An Analysis of Kickstarter Campaigns
+Performing Analysis on Kickstarter information to discover trends for a client looking to fund her own project. Using descriptive statistics, this Kickstarter data was analyzed by success rate, failure rate, campaigns in the United States vs campaigns in Great Britain, the success or failure of different genres of campaigns, all to help the client determine the success she would have with her own campaign.
