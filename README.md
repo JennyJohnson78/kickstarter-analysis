@@ -47,3 +47,12 @@ It the end of the function, there is now the condition that the goal has to be e
 
 ![image](https://user-images.githubusercontent.com/67409852/134752453-75c9f24f-ec56-4a13-ae81-1d4875a986f3.png)
 
+The last thing to do to prepare for the creation of the line graph is to calculate the percentages of the successful, failed, and canceled campaigns for every goal range off of the total number of campaigns.
+
+![image](https://user-images.githubusercontent.com/67409852/134752602-639e59a6-4842-4fd7-a876-5a9f7e46e57d.png)
+
+Now our table is complete and ready for the creation of the line graph.
+
+![image](https://user-images.githubusercontent.com/67409852/134752640-fc783f5d-6f5e-4365-8243-dc3ac2c22b30.png)
+
+## Challenges
