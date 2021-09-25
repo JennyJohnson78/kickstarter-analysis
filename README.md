@@ -39,7 +39,8 @@ For the entire successful column, the word "successful" is used, for the failed 
 ```
 COUNTSIF(Kickstarter!$F:$F, "successful", Kickstarter!$D:$D, ">1000", Kickstarter!$R:$R, "plays", Kickstarter!$D:$D,"<=4999")
 ```
-It the end of the function, there is now the condition that the goal has to be equal or lesser to 4999, so the range is now 1000 to 4999. The SUM() function is then used to calculate the number of total projects for the goal. 
+### Calculating the Sum and Percentages
+At the end of the function, there is now the condition that the goal has to be equal or lesser to 4999, so the range is now 1000 to 4999. The SUM() function is then used to calculate the number of total projects for the goal. 
  
  ![image](https://user-images.githubusercontent.com/67409852/134752425-1a22165f-8c4b-4468-86da-9ce8ace41a46.png)
  
