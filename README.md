@@ -39,7 +39,7 @@ For the entire successful column, the word "successful" is used, for the failed 
 ```
 COUNTSIF(Kickstarter!$F:$F, "successful", Kickstarter!$D:$D, ">1000", Kickstarter!$R:$R, "plays", Kickstarter!$D:$D,"<=4999")
 ```
-### Calculating the Sum and Percentages
+#### Calculating the Sum and Percentages
 At the end of the function, there is now the condition that the goal has to be equal or lesser to 4999, so the range is now 1000 to 4999. The SUM() function is then used to calculate the number of total projects for the goal. 
  
  ![image](https://user-images.githubusercontent.com/67409852/134752425-1a22165f-8c4b-4468-86da-9ce8ace41a46.png)
@@ -68,8 +68,8 @@ Some conclusions that can be drawn about the Theater Outcomes by Launch Date ana
 
 Some conclusions that can be drawn about the Outcomes Based on Goals analysis is that the most successful theater campaigns are those with a more modest goal. The overall trend shows that campaigns between less than $1000.00 to around $10,000 fare the best. Almost all fundraisers from $35,000 to over $50,000 fail to meet their goals. With this information, I would suggest that Louise keep her goal to under $10,000 or risk the possibility of not having her campaign fully funded.
 
-### Limitations
+#### Limitations
 A limitation this dataset has is that it doesn't take into consideration how certain titles might do better in specific cities. For instance, while category, subcategory, and country are analyzed, it would be interesting to see how a play with the same title would do in two different cities that are in two different locations within the same couuntry. Do bigger cities attract more big name plays? Do smaller cities garner less contributions, thus making the ability to reach a goal more difficult. More detailed data could answer more questions for Louise, thus making it a limitation.
 
-### Other Possibilities
+#### Other Possibilities
 Another possibility to provide more insight to Louise would be to make a visualization that would show the success, failure, and cancelation rates of theater kickstater campaigns by deadline. We have the data, so this is more data we could analyze to help Louise determine how long her campaign should run for. Do shorter campaigns that are successful have more momentum in the beginning, middle, or end of their deadline? Do canceled or failed campaigns never really get "off the ground" and are thus cut short? These are more questions we could find answers to for Louise. 
