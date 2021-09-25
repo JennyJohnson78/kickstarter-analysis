@@ -3,7 +3,7 @@
 Louise is interested in starting a fundraising campaign for a theater project and is seeking information on various kickstarter campaigns. She wouldlike more information on the statistics of campaigns based on category and subcategory, outcomes based on launch date and end time, as well as more specific information on theater outcomes by launch date and outcomes based on goals. The purpose of this analysis is to help Louise determine how well her theater campaign would fare if she were to launch one by looking at the success and failure of similar fundraisers, as well as when she should launch her campaign and what the goal should be.
 
 ## Analysis of Theater Outcomes by Launch Date
-For the analysis of theater outcomes by launch date, the first thing to do is create a column in the spreadsheet of Kickstarter data in order to separate the years from the dates in column Date Created Conversion column. The Date Created Conversion column takes the Unix timestamp data in column launched_at and converts it to a readable format, using the equation
+For the analysis of Theater Outcomes by Launch Date, the first thing to do is create a column in the spreadsheet of Kickstarter data in order to separate the years from the dates in column Date Created Conversion column. The Date Created Conversion column takes the Unix timestamp data in column launched_at and converts it to a readable format, using the equation
 ```
 =(((J2/60)/60)/24)+DATE(1970, 1, 1)
 ```
@@ -27,7 +27,7 @@ Next, the column labels are filtered to only show successful, failed, and cancel
 From this table, our line graph can be constructed.
 
 ## Analysis of Outcomes Based on Goals
-For the analysis of theater outcomes based on goals, a new worksheet is created and the following columns are created : goal, number successful, number failed, number canceled, total projects, percentage successful, percentage failed, and percentage canceled. In the "goals" column, a range of dollar amounts is added to aid in this analysis:
+For the analysis of Outcomes Based on Goals, a new worksheet is created and the following columns are created : goal, number successful, number failed, number canceled, total projects, percentage successful, percentage failed, and percentage canceled. In the "goals" column, a range of dollar amounts is added to aid in this analysis:
 
 ![image](https://user-images.githubusercontent.com/67409852/134752034-69fa5dfe-40e4-4c7d-880f-721fa3fad139.png)
 
@@ -57,3 +57,9 @@ Now our table is complete and ready for the creation of the line graph.
 ![image](https://user-images.githubusercontent.com/67409852/134752640-fc783f5d-6f5e-4365-8243-dc3ac2c22b30.png)
 
 ## Challenges
+A challenge of analyzing this data was making sure all the values in the table for the Outcomes Based on Goals analysis was correct. A lot of zeroes appeared in the table, so to make sure this was accurately reflecting the data, filters had to be applied to the outcomes and subcategory columns in the Kickstarter worksheet to make certain there were no canceled plays. After manually checking this, it was revealed the table was indeed correct. Filters were then removed.
+
+## Results
+![image](https://user-images.githubusercontent.com/67409852/134755395-d300128b-3da7-407c-964c-384649c66d0d.png)
+
+Some conclusions that can be drawn about the Theater Outcomes by Launch Date analysis is that successful theater campaigns are launched in the summertime, with the most successful months being June, July, and August. While more theater campaigns also fail during this time, the amount of successful campaigns to failed campaigns is almost 2:1. I would suggest to Louise that she begin her kickstarter campaign during the summer months.
