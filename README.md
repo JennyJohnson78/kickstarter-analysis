@@ -63,3 +63,13 @@ A challenge of analyzing this data was making sure all the values in the table f
 ![image](https://user-images.githubusercontent.com/67409852/134755395-d300128b-3da7-407c-964c-384649c66d0d.png)
 
 Some conclusions that can be drawn about the Theater Outcomes by Launch Date analysis is that successful theater campaigns are launched in the summertime, with the most successful months being June, July, and August. While more theater campaigns also fail during this time, the amount of successful campaigns to failed campaigns is almost 2:1. I would suggest to Louise that she begin her kickstarter campaign during the summer months.
+
+![image](https://user-images.githubusercontent.com/67409852/134755505-cf458e29-cc57-4b4e-b778-007e1ae158a3.png)
+
+Some conclusions that can be drawn about the Outcomes Based on Goals analysis is that the most successful theater campaigns are those with a more modest goal. The overall trend shows that campaigns between less than $1000.00 to around $10,000 fare the best. Almost all fundraisers from $35,000 to over $50,000 fail to meet their goals. With this information, I would suggest that Louise keep her goal to under $10,000 or risk the possibility of not having her campaign fully funded.
+
+### Limitations
+A limitation this dataset has is that it doesn't take into consideration how certain titles might do better in specific cities. For instance, while category, subcategory, and country are analyzed, it would be interesting to see how a play with the same title would do in two different cities that are in two different locations within the same couuntry. Do bigger cities attract more big name plays? Do smaller cities garner less contributions, thus making the ability to reach a goal more difficult. More detailed data could answer more questions for Louise, thus making it a limitation.
+
+### Other Possibilities
+Another possibility to provide more insight to Louise would be to make a visualization that would show the success, failure, and cancelation rates of theater kickstater campaigns by deadline. We have the data, so this is more data we could analyze to help Louise determine how long her campaign should run for. Do shorter campaigns that are successful have more momentum in the beginning, middle, or end of their deadline? Do canceled or failed campaigns never really get "off the ground" and are thus cut short? These are more questions we could find answers to for Louise. 
