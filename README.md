@@ -7,3 +7,5 @@ For the analysis of theater outcomes by launch date, the first thing to do is cr
 ```
 =(((J2/60)/60)/24)+DATE(1970, 1, 1)
 ```
+Using the YEAR() function, the year is extracted from the date. 
+![image](https://user-images.githubusercontent.com/67409852/134750960-9a512006-61e8-491b-b744-79500f29acbd.png)
